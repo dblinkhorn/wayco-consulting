@@ -1,0 +1,18 @@
+.header_contact-bar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.header_navbar {
+    padding: 0 200px;
+
+    .header_nav-logo {
+        padding: 20px 0;
+    }
+}
