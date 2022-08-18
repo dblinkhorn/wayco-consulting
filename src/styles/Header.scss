@@ -19,7 +19,6 @@
             background-color: black;
             color: white;
             width: calc(100% - 400px);
-            max-width: 1600px;
         }
     }
     
@@ -28,8 +27,8 @@
         flex-flow: row;
         justify-content: space-between;
         padding: 0 200px;
-        width: calc(100% - 400px);
-        max-width: 1600px;
+        max-width: 1550px;
+        width: 100%;
     
         .header_nav-logo {
             padding: 20px 0;

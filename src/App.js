@@ -1,10 +1,10 @@
-import './App.scss';
-import Header from './components/Header';
+import "./styles/App.scss";
+import Home from "./pages/Home";
 
 function App() {
     return (
         <div className='App'>
-            <Header />
+            <Home />
         </div>
     );
 }
