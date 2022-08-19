@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: transparent;
+}
+
 .App {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }

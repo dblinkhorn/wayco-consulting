@@ -1,18 +1,18 @@
-import React from 'react';
-import '../styles/Header.scss';
-import LargeLogo from '../static/images/logo_large.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import React from "react";
+import "../styles/Header.scss";
+import LargeLogo from "../static/images/logo_large.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const iconStyling = {
-    padding: '0 16px',
+    padding: "0 16px",
 };
 
 const IconStylingEnd = {
-    paddingRight: '0px',
-    paddingLeft: '16px',
+    paddingRight: "0px",
+    paddingLeft: "16px",
 };
 
 const Header = () => {
@@ -54,11 +54,20 @@ const Header = () => {
                 </div>
                 <div className='header_nav-buttons'>
                     <ul>
-                        <li className='header_start-link'>Home</li>
-                        <li>About Us</li>
-                        <li>Client Services</li>
-                        <li>News & Events</li>
-                        <li className='header_end-link'>Contact Us</li>
+                        <li className='header_start-link'>
+                            <span className='header_button'>Home</span>
+                        </li>
+                        <li>
+                            <span className='header_button'>About Us</span>
+                        </li>
+                        <li>
+                            <span className='header_button'>
+                                Client Services
+                            </span>
+                        </li>
+                        <li className='header_end-link'>
+                            <span className='header_button'>Contact Us</span>
+                        </li>
                     </ul>
                 </div>
             </div>

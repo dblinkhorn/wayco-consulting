@@ -1,11 +1,16 @@
 import React from "react";
 
 const BaseButton = props => {
-    const { button_text } = props;
+    const { text } = props;
     const styles = {
-        backgroundColor: "blue",
+        backgroundColor: "#09a0dc",
+        padding: "15px",
+        color: "white",
+        fontWeight: "bold",
+        letterSpacing: "3px",
+        cursor: "pointer",
     };
-    return <div style={styles}>{button_text}</div>;
+    return <div style={styles}>{text}</div>;
 };
 
 export default BaseButton;

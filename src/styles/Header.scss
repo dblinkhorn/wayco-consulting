@@ -14,11 +14,11 @@
             flex-flow: row;
             justify-content: space-between;
             align-items: center;
-            padding: 0 200px;
+            padding: 0 20px;
             height: 40px;
             background-color: black;
             color: white;
-            width: calc(100% - 400px);
+            width: 100%;
         }
     }
     
@@ -35,6 +35,7 @@
         }
     
         .header_nav-buttons {
+            font-family:'Times New Roman', Times, serif;
             display: flex;
             align-items: center;
             flex-direction: end;
@@ -48,6 +49,16 @@
                 li {
                     display: inline;
                     padding: 0 25px;
+
+                    .header_button {
+                        cursor: pointer;
+                        padding-bottom: 4px;
+
+                        &:hover {
+                            border-bottom-style: solid;
+                            border-bottom-width: 1px;
+                        }
+                    }
                 }
 
                 .header_end-link {
