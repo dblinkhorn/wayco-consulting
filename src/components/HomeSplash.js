@@ -5,12 +5,11 @@ import "../styles/HomeSplash.scss";
 const HomeSplash = () => {
     return (
         <div className='home-splash_outer-container'>
-            <div className='home-splash_border' />
             <div className='home-splash_inner-container'>
                 <div className='home-splash_tagline-container'>
                     <span className='home-splash_tagline'>
-                        Helping You Solve Your Biggest
-                        <br /> Challenges with Strategy
+                        Providing New School Solutions
+                        <br /> with Old School Values
                     </span>
                     <span className='home-splash_sub-tagling'>
                         At vero eos et accusamus et iusto odio dignissimos
@@ -24,7 +23,6 @@ const HomeSplash = () => {
                     </div>
                 </div>
             </div>
-            <div className='home-splash_border' />
         </div>
     );
 };

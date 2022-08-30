@@ -1,0 +1,75 @@
+.bio-splash_main-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+    .bio-splash_inner-container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+
+        .bio-splash_text-container {
+            display: flex;
+            flex-flow: row;
+            margin-top: 50px;
+    
+            .bio-splash_left-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30%;
+                font-size: 30px;
+                font-family:'Times New Roman', Times, serif;
+            }
+    
+            .bio-splash_right-text {
+                width: 70%;
+                color: #555;
+            }
+        }
+    
+        .bio-splash_image-container {
+            display: flex;
+            flex-flow: row;
+            width: 100%;
+            margin-top: 50px;
+    
+            .bio-splash_tom-way,
+            .bio_splash_michael-messina {
+                background-color: #0e0e0e;
+                width: 550px;
+                height: 375px;
+                position: relative;
+
+                .bio-splash_bio-text {
+                    color: #888;
+                }
+            }
+    
+            .bio-splash_tom-way {
+                margin-right: 50px;
+            }
+    
+            .bio-splash_michael-messina {
+                margin-left: 50px;
+            }
+    
+            .bio-splash_tom-text,
+            .bio-splash_michael-text {
+                position: absolute;
+                top: 0px;
+                left: 275px;
+                color: white;
+                margin-top: 75px;
+                
+                .bio-splash_img-name {
+                    font-family:'Times New Roman', Times, serif;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
