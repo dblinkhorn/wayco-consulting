@@ -5,12 +5,12 @@ import MichaelMessina from "../static/images/michael-messina.jpg";
 
 const BioSplash = () => {
     return (
-        <div className='bio-splash_main-container'>
+        <div className='bio-splash_outer-container'>
             <div className='bio-splash_inner-container'>
                 <div className='bio-splash_text-container'>
                     <div className='bio-splash_left-text'>
                         We are WAYCO Disaster
-                        <br /> Consulting and Training
+                        <br /> Consulting & Training
                     </div>
                     <div className='bio-splash_right-text'>
                         WAYCO Disaster Consulting & Training excels at providing

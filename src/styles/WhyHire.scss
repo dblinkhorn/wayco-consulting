@@ -1,0 +1,23 @@
+.why-hire_outer-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+
+    .why-hire_inner-container {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .why-hire_main-text {
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .why-hire_reasons-container {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        margin-top: 30px;
+    }
+}

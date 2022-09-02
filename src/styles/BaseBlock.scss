@@ -1,0 +1,29 @@
+.base-block_outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+    .base-block_icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .base-block_title-text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .base-block_small-text-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        color: #555;
+    }
+}

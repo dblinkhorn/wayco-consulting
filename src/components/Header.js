@@ -17,7 +17,7 @@ const IconStylingEnd = {
 
 const Header = () => {
     return (
-        <div className='header_main-container'>
+        <div className='header_outer-container'>
             {/* contact bar */}
             <div className='header_contact-bar-container'>
                 <div className='header_contact-bar'>
