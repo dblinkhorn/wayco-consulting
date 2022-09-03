@@ -2,9 +2,11 @@ import React from "react";
 import "../styles/Header.scss";
 import LargeLogo from "../static/images/logo_large.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+    faYoutube,
+    faFacebook,
+    faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const iconStyling = {
     padding: "0 16px",
@@ -32,7 +34,7 @@ const Header = () => {
                             style={iconStyling}
                         />
                         <FontAwesomeIcon
-                            icon={faTwitter}
+                            icon={faInstagram}
                             color='white'
                             size='1x'
                             style={iconStyling}
@@ -50,7 +52,7 @@ const Header = () => {
             {/* navbar */}
             <div className='header_navbar'>
                 <div className='header_nav-logo'>
-                    <img src={LargeLogo} alt='Logo' />
+                    <img src={LargeLogo} alt='Logo' width='60%' />
                 </div>
                 <div className='header_nav-buttons'>
                     <ul>

@@ -17,13 +17,8 @@ const HomeSplash = () => {
             <div className='home-splash_inner-container'>
                 <div className='home-splash_tagline-container'>
                     <span className='home-splash_tagline'>
-                        Providing New School Solutions
-                        <br /> with Old School Values
-                    </span>
-                    <span className='home-splash_sub-tagling'>
-                        At vero eos et accusamus et iusto odio dignissimos
-                        ducimus, qui blanditiis praesentium voluptatum deleniti
-                        atque corrupti.
+                        Providing New School Solutions to Emergency Preparedness
+                        Using Old School Values
                     </span>
                 </div>
                 <div className='home-splash_button-container'>

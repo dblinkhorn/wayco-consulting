@@ -32,8 +32,9 @@ const BioSplash = () => {
                         <div className='bio-splash_tom-text'>
                             <h1 className='bio-splash_img-name'>Tom Way</h1>
                             <span className='bio-splash_bio-text'>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
+                                FEMA Master Exercise Practitioner. Retired Fire
+                                Captain. 34 years experience Fire & EMS as well
+                                as Emergency Preparedness Training.
                             </span>
                         </div>
                     </div>
@@ -44,8 +45,9 @@ const BioSplash = () => {
                                 Michael Messina
                             </h1>
                             <span className='bio-splash_bio-text'>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
+                                HAZMAT Specialist & Life Safety Instructor and
+                                Coordinator. 38 years combined experience in
+                                Fire & EMS and Public Safety Education.
                             </span>
                         </div>
                     </div>

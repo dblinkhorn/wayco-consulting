@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/WhyHire.scss";
 import BaseBlock from "./ui-elements/BaseBlock";
+import { faPeopleGroup } from "@fortawesome/free-solid-svg-icons";
 
 const WhyHire = () => {
     return (
@@ -11,7 +12,36 @@ const WhyHire = () => {
                 </div>
                 <div className='why-hire_reasons-container'>
                     <BaseBlock
-                        icon={"ICON"}
+                        icon={faPeopleGroup}
+                        iconSize='3x'
+                        iconColor='#09a0dc'
+                        titleText={"Amazing people"}
+                        smallText={
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        }
+                    />
+                    <BaseBlock
+                        icon={faPeopleGroup}
+                        iconSize='3x'
+                        iconColor='#09a0dc'
+                        titleText={"Amazing people"}
+                        smallText={
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        }
+                    />
+                    <BaseBlock
+                        icon={faPeopleGroup}
+                        iconSize='3x'
+                        iconColor='#09a0dc'
+                        titleText={"Amazing people"}
+                        smallText={
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                        }
+                    />
+                    <BaseBlock
+                        icon={faPeopleGroup}
+                        iconSize='3x'
+                        iconColor='#09a0dc'
                         titleText={"Amazing people"}
                         smallText={
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
